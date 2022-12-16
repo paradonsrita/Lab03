@@ -1,0 +1,174 @@
+body {
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    background-color: aqua;
+}
+
+.nav {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.head {
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 70px;
+    padding-top: 10px;
+    /*ทำให้คำว่า Head / Banner อยู่ตรงกลาง*/
+}
+
+.double {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: palegreen;
+    margin-right: 20px;
+
+}
+
+.body {
+    flex: 2;
+    background-color: palevioletred;
+}
+
+.footer {
+    background-color: peru;
+    text-align: center;
+}
+
+/*layout 2*/
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logo2 {
+    flex: 1;
+    background-color: aqua;
+}
+
+.nav2 {
+    background-color: greenyellow;
+    flex: 2;
+}
+
+.intro {
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.box {
+    background-color: cornflowerblue;
+    width: 400px;
+    text-align: center;
+}
+
+/*layout 3*/
+.box2 {
+    background-color: rosybrown;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/*layout 4*/
+#head2 {
+    background-color: rgb(51, 51, 51);
+    margin: -30px;
+
+}
+
+.flex2 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.flex3 {
+    display: flex;
+}
+
+.g1 {
+    flex: 2;
+    margin-right: 20px;
+
+}
+
+.g2 {
+    flex: 1;
+}
+
+.title {
+    background-color: rgb(85, 85, 85);
+    width: 160px;
+}
+
+.photo {
+    height: 630px;
+    background-color: rgb(126, 126, 126);
+    margin-top: -15px;
+}
+
+.detail_photo {
+    width: 160px;
+    height: 150px;
+    background-color: grey;
+    margin-top: 5px;
+}
+
+.pointer {
+    background-color: gray;
+    height: 5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.photo2 {
+    /*อยู่ล่างซ้าย*/
+    height: 150px;
+    background-color: rgb(85, 85, 85);
+}
+
+/*อยู่ขวา*/
+.photo3 {
+    height: 300px;
+    background-color: rgb(85, 85, 85);
+    margin-top: 15px;
+}
+
+.title2 {
+    background-color: rgb(85, 85, 85);
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.display {
+    display: flex;
+    width: 400px;
+    height: 155px;
+}
+
+.detail_photo2 {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.detail {
+    text-align: center;
+}
